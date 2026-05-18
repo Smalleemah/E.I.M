@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
       navMenu.classList.toggle("is-open");
     });
 
-    // Optional: Close menu when a link is clicked
     const navLinks = document.querySelectorAll(".eb-nav-item");
     navLinks.forEach((link) => {
       link.addEventListener("click", () => {
